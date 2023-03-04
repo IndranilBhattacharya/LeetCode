@@ -4,7 +4,7 @@
  * @param {number} maxK
  * @return {number}
  */
-var countSubarrays = function (nums, minK, maxK) {
+const countSubarrays = function (nums, minK, maxK) {
   let lastMin = -1;
   let lastMax = -1;
   let iSub = -1;
